@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app}>
       测试
     </div>
   );
